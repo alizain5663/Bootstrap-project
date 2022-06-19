@@ -1,0 +1,137 @@
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-a{
+    display: flex;
+    float: right;
+    /* justify-content: space-between; */
+    align-items: center;
+    
+    list-style: none;
+    margin-right:10px ;
+    height: 6px;
+   
+    
+   
+}
+
+.first-li{
+    border-right: 2px solid white ;
+    margin-top: 8px;
+   padding-right: 10px;
+   align-items: center;
+    
+    color: #fff;
+    font-size: 13px;
+    line-height: 14px;
+    padding-left: 10px;
+
+    font-weight: 500;
+
+
+}
+a{
+    text-decoration: none;
+
+    margin-right: 0px ;
+}
+.danger{
+   color: red;
+}
+.img{
+    background-image: url(../Assets/Salesforce-Development-Company.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.second{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    height: auto;
+    margin-top: 0px;
+    background: fixed;
+
+
+}
+.sec-ul{
+    display: flex;
+    float: right;
+    justify-content: space-between;
+    /* align-items: center; */
+    
+    list-style: none;
+    margin-right:10px ;
+    height: 6px;
+    
+
+}
+.logo{
+    color: white;
+    font-size: larger;
+}
+.sec-nav{
+
+    margin-top: 10px;
+   padding-right: 10px;
+   align-items: center;
+    
+    color: #fff;
+    font-size: 15px;
+    line-height: 14px;
+    padding-left: 10px;
+
+    font-weight: 500;
+    
+}
+
+.btn-danger{
+    
+    height: 20px;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 28px;
+   margin-top: -11px;
+}
+.btn-danger:hover{
+    border: dotted red;
+    background-color: transparent;
+    color: red;
+    height: 10px;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 28px;
+   margin-top: -11px;
+}
+.sec-nav:hover{
+    color: red;
+}
+.mouse{
+    background-image: url(../Assets/home_mouse_icon.png);
+    height: 73px;
+    background-repeat:no-repeat ;
+    margin-top:-540px;
+    background-position: center;
+    
+}
+/* .big
+{
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+} */
+.red{
+background: url(../Assets/home_testimonial_bg.jpg);
+margin-top: 555px;
+height: auto;
+background-repeat: no-repeat;
+background-position: center;
+height:500px;
+margin-left: -12px;
+position: relative;
+    
+}
+
